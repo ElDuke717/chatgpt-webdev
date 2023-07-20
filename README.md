@@ -1,6 +1,7 @@
-[![Frontend Masters](https://static.frontendmasters.com/assets/brand/logos/full.png)][fem]
+# ChatGPT API
+## This is a modified version of the companion repo for the [First Look at ChatGPT for Web Developers][course] course on [Frontend Masters][fem].
 
-This is a companion repo for the [First Look at ChatGPT for Web Developers][course] course on [Frontend Masters][fem].
+## Setup
 
 [fem]: https://frontendmasters.com
 [course]: https://frontendmasters.com/courses/chatgpt-api/
