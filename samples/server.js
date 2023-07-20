@@ -1,6 +1,6 @@
 
 
-const OPENIA_KEY = "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";
+const OPENAI_KEY = "";
 
 const path = require('path');
 const express = require('express');
@@ -18,7 +18,7 @@ app.post('/api/chat', async (req, res) => {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer sess-vpiF9RZH2qkkmfXscAZUS3nIFIVdSDzw00jMOxAC',
+        'Authorization': `Bearer ${OPENIA_KEY}`,
     },
     body: JSON.stringify({
         ...body,
@@ -35,7 +35,7 @@ app.post('/api/chat', async (req, res) => {
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
-  apiKey: OPENIA_KEY,
+  apiKey: OPENAI_KEY,
 });
 const openai = new OpenAIApi(configuration);
 
